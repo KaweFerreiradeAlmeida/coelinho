@@ -112,7 +112,7 @@ function draw()
     World.remove(engine.world,fruit);
     fruit = null;
    //Código para alterar a animação do coelho quando uma colisão for detectada.
-   chenj
+   changeAnimation("assets"/"eat_0.png" , "eat_1.png","eat_2.png","eat_3.png","eat_4.png")
   }
   
   if(collide(fruit,bubble,40) == true)
